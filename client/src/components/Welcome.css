@@ -1,0 +1,217 @@
+/* .container {
+  text-align: center;
+  justify-content: center;
+}
+
+footer {
+  width: 100%;
+  height: 30px;
+  justify-content: center;
+  font-size: large;
+  font-weight: 300;
+  color: black;
+  width: 100% !important;
+}
+
+.welcome__header {
+  letter-spacing: 0.1rem !important;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.how_to_use {
+  background-color: rgb(212, 212, 212) !important;
+  text-align: left;
+  width: fit-content;
+  border-radius: 10px;
+  letter-spacing: 0.1rem;
+  margin-right: 30px;
+  width: 45%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.how_to_use h4 {
+  text-align: center;
+}
+.capabilities h4 {
+  text-align: center;
+}
+
+.capabilities {
+  width: 45%;
+
+  background-color: rgb(212, 212, 212) !important;
+  text-align: left;
+  width: fit-content;
+  border-radius: 10px;
+  letter-spacing: 0.1rem;
+  margin-right: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.capabilities p {
+  letter-spacing: 0rem;
+  margin-right: 10px;
+}
+.app_descrip p {
+  letter-spacing: 0rem;
+  margin-right: 10px;
+}
+
+h1 {
+  color: rgb(0, 0, 0) !important;
+}
+
+.app_descrip {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: fit-content;
+  height: fit-content;
+}
+
+.stats_h1 {
+  color: rgb(255, 255, 255) !important;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+* {
+  text-align: center;
+}
+
+.banner {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/MERN-logo.png/640px-MERN-logo.png")
+    center center;
+  height: 50vh;
+  position: sticky;
+  background-repeat: no-repeat;
+  margin-bottom: 120px;
+}
+.banner__stats {
+  background-color: whitesmoke;
+  padding: 20px;
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(0, 0, 0) !important;
+  letter-spacing: 0.1rem !important;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75) !important;
+}
+.banner__info {
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-top: 12vh;
+  width: 300px;
+  padding-right: 20px;
+}
+
+.banner__info h1 {
+  color: #c8f0ff !important;
+}
+
+.banner__info h2 {
+  color: #000000 !important;
+}
+
+.banner__info h2:hover {
+  transition: all 2s ease;
+
+  color: rgb(0, 225, 255) !important;
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -ms-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+}
+
+.banner__info:hover {
+  transition: all 2s ease;
+
+  color: rgb(0, 225, 255);
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -ms-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75) !important;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+  border: 1px solid rgb(226, 226, 226);
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}
+
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+
+footer {
+  width: 100%;
+  height: 30px;
+  justify-content: center;
+  font-size: large;
+  font-weight: 300;
+  color: black;
+  width: 100% !important;
+}
+
+.card {
+  width: fit-content !important;
+  padding: 5px;
+  display: flex;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+}

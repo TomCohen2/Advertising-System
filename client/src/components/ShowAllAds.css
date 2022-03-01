@@ -1,0 +1,43 @@
+.page {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.card {
+  border-radius: 0.4rem !important;
+  margin: 20px;
+  width: 33%;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 200ms ease-in !important;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  width: 500px;
+  justify-self: center !important;
+  color: aliceblue;
+  width: 35%;
+}
+
+.btn:hover {
+  background-color: rgb(224, 224, 224) !important;
+  color: black !important;
+}
+.btnDiv {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 10px;
+  text-align: center !important;
+}
+
+.card Button {
+  text-align: center;
+}

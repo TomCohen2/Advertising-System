@@ -1,0 +1,16 @@
+form {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-direction: column;
+  border-width: 2px;
+  border-color: rgb(0, 84, 194);
+}
+
+form input {
+  margin: 5px;
+}
+
+.page__signin {
+  background-color: transparent;
+}

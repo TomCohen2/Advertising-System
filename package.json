@@ -1,0 +1,31 @@
+{
+  "name": "react-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adminjs/express": "^4.0.1",
+    "@adminjs/mongoose": "^2.0.0",
+    "admin-bro-expressjs": "^2.1.1",
+    "adminjs": "^5.5.1",
+    "axios": "^0.24.0",
+    "dotenv": "^15.0.0",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.2",
+    "mongodb": "^4.3.0",
+    "mongoose": "^6.1.6",
+    "socket-io": "^1.0.0",
+    "socket.io": "^4.4.1",
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}

@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(103, 235, 221);
+  text-align: center;
+  align-items: center;
+}
+.myinput {
+  width: 70%;
+  margin-top: 20px;
+  display: flex !important;
+  flex-direction: column !important;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.editP {
+  max-width: 400px;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  height: 100px;
+}
+
+.btn {
+  width: fit-content;
+  margin: 20px !important;
+}
+
+.thepage {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.page {
+  align-items: center;
+}
