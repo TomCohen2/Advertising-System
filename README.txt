@@ -1,7 +1,4 @@
 
-PLEASE NOTICE THAT THE NODE_MODULES is missing because of the big size the it has
-to remake this folder, run "npm install" after the completion of the next steps: 
-
 
 
 
