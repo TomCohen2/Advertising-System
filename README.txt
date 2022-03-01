@@ -32,4 +32,4 @@ http://localhost:3000/screen=:id       are the clients screens, "id" can be any 
 When both client+server are running, you cant start using the app
 The navigation bar is intuitive for use.
 
-Thank you for checking out our project!
+Thank you for checking out my project!
